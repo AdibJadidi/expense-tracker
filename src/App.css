@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+html,
+body,
+#root {
+  height: 100%;
+  box-sizing: border-box;
+}
+body {
+  font-size: 62.5%;
+}
+.App {
+  box-sizing: border-box;
+  background-color: #0d9488;
+  color: #0d1d2c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  margin-bottom: 25px;
+  font-size: 1.6rem;
+  color: #f0fdfa;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0fdfa;
+  padding: 15px;
+  border-radius: 5px;
+  width: 300px;
+  font-size: 1rem;
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.resultSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.amountBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #0d9488;
+  border-radius: 5px;
+  padding: 5px 10px;
+  justify-content: space-between;
+  width: 100px;
+  height: 50px;
+}
+
+.amountBox span {
+  font-weight: bold;
+  color: rgb(60, 182, 23);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  min-height: 150px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.radio {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+input {
+  outline: none;
+  border: 1px solid #0d9488;
+  border-radius: 5px;
+  padding: 8px 16px;
+  margin-bottom: 5px;
+}
+input::placeholder {
+  color: #0d9488;
+}
+
+/* input[type=radio]{
+
+} */
+
+label {
+  font-size: 14px;
+  margin-left: 2px;
+}
+
+.btn {
+  background-color: #0d9488;
+  color: #f0fdfa;
+  outline-style: none;
+  border: 1px solid #f0fdfa;
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+
+.primary {
+  background-color: #0d9488;
+  color: #f0fdfa;
+  padding: 10px 16px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  border: 1px solid #0d9488;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.eachTransaction {
+  font-weight: bold;
+  color: #0d9488;
+  background-color: #ccfbf1;
+  border-radius: 0px 5px 0px 5px;
+  margin: 5px 0;
+  padding: 10px 10px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
